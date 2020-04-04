@@ -100,7 +100,7 @@ if($num>1){
         </div>
     </main>
 
-   <footer class="footer">
+    <footer class="footer">
         <div class="row">
 
 
@@ -132,5 +132,3 @@ if($num>1){
 </body>
 
 </html>
-
-

@@ -129,12 +129,16 @@ session_start();
             </div>
         
     </main>
-    <footer class="footer">
+     <footer class="footer">
         <div class="row">
+
+
             <div class="col-md-6">
                 <nav>
                     <ul>
-                        <h5 class="mb-3 mt-0"><a class="logo" href="index.html"><img src="images/logo21.png" alt="Pizza"></a></h5>
+                        <li>
+                            <h5 class="mb-3 mt-0"><a class="logo" href="index.html"><img src="images/logo21.png" alt="Pizza"></a></h5>
+                        </li>
                         <li><a href="index.php">Home</a></li>
                         <li><a href="product.php">Product</a></li>
                         <li><a href="store.php">Menu</a></li>

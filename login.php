@@ -117,7 +117,7 @@ else
     
     <!--footer-->
 		
-<footer class="footer">
+ <footer class="footer">
         <div class="row">
 
 
@@ -149,5 +149,3 @@ else
 </body>
 
 </html>
-
-

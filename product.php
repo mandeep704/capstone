@@ -116,7 +116,7 @@ echo mysqli_error($dbc);
             </div>
         </div>
     </main>
-</body>
+
 
 
 <!--?php
@@ -128,31 +128,35 @@ require('mysqli_connect.php');
 <h4><!--?php echo $row['price'] ?></h4>
 <img src="images/<!--? echo $row['image' ] ?>" id ='mainImg'>
 </content-->
-<footer class="footer">
-    <div class="row">
-        <div class="col-md-6">
-            <nav>
-                <ul>
-                    <h5 class="mb-3 mt-0"><a class="logo" href="index.html"><img src="images/logo21.png" alt="Pizza"></a></h5>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="product.php">Products</a></li>
-                    <li><a href="store.php">Menu</a></li>
-                    <li><a href="checkout.php">Checkout</a></li>
-                    <li><a href="login.php">Login/Register</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="col-md-3">
-            &copy; 2020 www.Pizzeratta.com
-        </div>
-        <div class="col-md-3">
-            An elite food publisher<br>
-            <span>Pizzeratta - Created for Pizzeratta</span>
-        </div>
-    </div>
-
-</footer>
+ <footer class="footer">
+        <div class="row">
 
 
+            <div class="col-md-6">
+                <nav>
+                    <ul>
+                        <li>
+                            <h5 class="mb-3 mt-0"><a class="logo" href="index.html"><img src="images/logo21.png" alt="Pizza"></a></h5>
+                        </li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="product.php">Product</a></li>
+                        <li><a href="store.php">Menu</a></li>
+                        <li><a href="checkout.php">Checkout</a></li>
+                        <li><a href="login.php">Login/Register</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-3">
+                &copy; 2020 www.Pizzeratta.com
+            </div>
+            <div class="col-md-3">
+                An elite food publisher<br>
+                <span>Pizzeratta - Created for Pizzeratta</span>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
 
 </html>
